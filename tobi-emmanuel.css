@@ -1,0 +1,42 @@
+*{
+    font-weight: 700;
+}
+body{
+    min-height: 100vh;
+    background:linear-gradient(pink,blue) ;
+    font-family:verdana;
+}
+header{
+    /* border: 2px solid black; */
+    text-align: center;
+}
+#appli-pic{
+    width: 6rem;
+    height: 6rem;
+    border: 2px solid blue;
+    border-radius: 50px;
+    margin: 10px auto 10px auto;
+}
+
+#info{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.info-card{
+    padding: 3px;
+    /* text-align: center; */
+    border: 2px solid black;
+    margin: 5px;
+    height: 200px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+#summary{
+    padding: 5px;
+    border: 2px solid black;
+    margin: 15px auto 15px auto;
+    border-radius: 5px;
+}
